@@ -1,5 +1,12 @@
 # AnandProfile
 
+## Integrating to circularcli
+    create and add .circlecli/config.yml
+    and update these
+    # - image: circleci/node:8-browsers
+      - run: yarn ng build --prod
+      - run: yarn ng test --single-run
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
 
 ## Development server
